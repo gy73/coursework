@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@keyframes btnScale {
+    from {transform: scale(1);}
+    to {transform: scale(1.1);}
+}
+*{
+    text-decoration: none;
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container{
+  max-width: 1440px;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+.header{
+    margin-bottom: 50px;
+}
+
+.navbar{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.catalog{
+    text-decoration: none;
+    color: #000;
+    padding: 0;
+    margin: 0;
+}
+
+.cartImgButton{
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.footer{
+    margin-top: 50px;
+}
+
+.SignIn, .Registration{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 9px ;
+    padding: 5px 4px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.SignIn:hover, .Registration:hover{
+    animation: btnScale .5s;
+    animation-fill-mode: forwards
+}
+
+.buttons{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+}
