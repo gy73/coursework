@@ -1,0 +1,53 @@
+@keyframes textScale {
+  from { transform: scale(1);}
+  to { transform: scale(1.2);}
+}
+
+.ModalWindow{
+  width: 400px;
+  height: 300px;
+}
+
+.closeModalWindow{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  display: flex;
+  display: flex;
+  margin-top: 2%;
+  justify-content: center;
+}
+
+.closeModalWindow:hover{
+  text-decoration: underline;
+  animation: textScale .28s ;
+  animation-fill-mode: forwards
+}
+
+.NavbarButtons{
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  gap: 20px;
+}
+
+.NavbarButtons:hover{
+  text-decoration: underline;
+  animation: textScale .28s ;
+  animation-fill-mode: forwards
+}
+
+.logo{
+  text-align: center; 
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;   
+  font-size: 36px;
+  color: #000;
+}
